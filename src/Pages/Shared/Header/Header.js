@@ -7,7 +7,7 @@ const Header = () => {
         <Link to='/'>Home</Link>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar h-20 mb-20 pt-20 bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Get started</a>
+                <Link><button className="btn btn-outline btn-warning bg-white">Appoinment </button></Link>
             </div>
         </div>
     );
