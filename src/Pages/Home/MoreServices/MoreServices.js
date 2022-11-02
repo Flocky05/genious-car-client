@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiCalendarDays } from "react-icons/hi2";
+
 import img1 from '../../../assets/icons/check.svg'
 import img2 from '../../../assets/icons/deliveryt.svg'
 import img3 from '../../../assets/icons/Wrench.svg'
