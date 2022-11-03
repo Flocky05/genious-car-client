@@ -4,7 +4,15 @@ import logo from '../../../assets/logo.svg'
 
 const Header = () => {
     const menuItems = <>
-        <Link to='/'>Home</Link>
+        <div className='space-x-6   '>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/services'>Services</Link>
+            <Link to='/blog'>Blog</Link>
+            <Link to='/contact'>Contact</Link>
+            <Link to='/login'>Login</Link>
+        </div>
+
     </>
     return (
         <div className="navbar h-20 mb-20 pt-20 bg-base-100">
